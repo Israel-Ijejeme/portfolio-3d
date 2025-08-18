@@ -171,11 +171,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Event Ticket Admin Dashboard',
+    desc: 'A full-stack web app that enables users to browse events, book tickets, and receive emails containing their digital passes. Includes an admin dashboard for payment, ticket sales tracking, user management, email notifications, and real-time analytics. Built with PHP, MySQL, and modern frontend technologies..',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Built with PHP 8.4, MySQL 8.0, JavaScript and XAMPP for the server. Hosted for short period(event duration) on cPanel.',
+    href: 'https://github.com/Israel-Ijejeme/event-ticket-system',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -187,23 +187,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'PHP',
+        path: '/assets/php.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'MySQL',
+        path: 'assets/mysql.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'XAMPP',
+        path: '/assets/xampp.png',
       },
     ],
   },
@@ -263,8 +263,8 @@ export const workExperiences = [
     name: 'Telleosis',
     pos: 'Frontend Developer',
     duration: '2025 - Present',
-    title: "At Telleosis, we craft custom software that simplifies, scales, and drives real impact — from education and government systems to private enterprise operations.",
-    icon: '/assets/telleosis.jpeg',
+    title: "Working with designers and backend engineers to build clean and smooth mobile and web apps.",
+    icon: '/assets/telleosis.png',
     animation: 'victory',
   },
 ];
