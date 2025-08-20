@@ -40,10 +40,11 @@ const About = () => {
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
                 I specialize in a variety of languages, frameworks and tools including{' '}
-                <span className="text-purple-400">PHP</span>,{' '}
                 <span className="text-cyan-400">React</span>,{' '}
                 <span className="text-teal-400">TailwindCSS</span>,{' '}
                 <span className="text-blue-500">TypeScript</span>,{' '}
+                <span className="text-purple-400">PHP</span>,{' '}
+                <span className="text-amber-600">MySQL</span>,{' '}
                 <span className="text-slate-300">ShadCN</span>,{' '}
                 <span className="text-amber-400">Firebase</span>,{' '}
                 <span className="text-blue-400">React Native</span> &{' '}

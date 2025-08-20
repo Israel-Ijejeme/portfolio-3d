@@ -24,41 +24,25 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Daniel Ogonnaya',
+    position: 'General Secretary at NACOMES',
+    img: 'assets/review.jpg',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Israel was a fantastic experience. He created a ticket tracking and admin dashboard for a massive tech summit that I hosted and it was awesome. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Joel Okwueze',
+    position: 'Alumni, Veritas University',
+    img: 'assets/review.jpg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Israel’s expertise in web development is truly impressive. He delivered a robust and scalable school portal for my final year project in no time, and my supervisor loved it! He’s a true professional! Fantastic work.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
+    title: 'Law Firm Landing Page',
     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
@@ -101,7 +85,7 @@ export const myProjects = [
       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: '/textures/project/preview-portfolio.webm',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -138,7 +122,7 @@ export const myProjects = [
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/preview-restaurant.webm',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -176,7 +160,7 @@ export const myProjects = [
     subdesc:
       'Built with PHP 8.4, MySQL 8.0, JavaScript and XAMPP for the server. Hosted for short period(event duration) on cPanel.',
     href: 'https://github.com/Israel-Ijejeme/event-ticket-system',
-    texture: '/textures/project/project-school-portal.mp4',
+    texture: '/textures/project/project-admin-dashboard.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -213,7 +197,7 @@ export const myProjects = [
     subdesc:
       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project-admin-dashboard.webm',
+    texture: '/textures/project/project-school-portal.webm',
     logo: '/assets/project-logo5.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
@@ -263,7 +247,7 @@ export const workExperiences = [
     name: 'Telleosis',
     pos: 'Frontend Developer',
     duration: '2025 - Present',
-    title: "Working with designers and backend engineers to build clean and smooth mobile and web apps.",
+    title: "Collaborating closely with designers to translate user-centered designs into responsive, intuitive interfaces, while working alongside backend engineers to integrate APIs and ensure seamless data flow. Contributed to the full development lifecycle of mobile and web applications, focusing on clean code practices, performance optimization, and cross-platform compatibility. Maintained clear communication across teams to align on product goals, resolve technical challenges, and deliver polished applications that provided users with a smooth and reliable experience.",
     icon: '/assets/telleosis.png',
     animation: 'victory',
   },
