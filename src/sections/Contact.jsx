@@ -1,4 +1,3 @@
-import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
 import useAlert from '../hooks/useAlert.js';
@@ -16,54 +15,52 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    //service_k9dfg6b
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'Israel Ijejeme',
-          from_email: form.email,
-          to_email: 'pijejemeonovie@gmail.com',
+    try {
+      const response = await fetch('https://formspree.io/f/xrblnowq', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
           message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: 'Thank you for your message 😃',
-            type: 'success',
-          });
+        }),
+      });
 
-          setTimeout(() => {
-            hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+      if (response.ok) {
+        setLoading(false);
+        showAlert({
+          show: true,
+          text: 'Thank you for your message 😃',
+          type: 'success',
+        });
 
-          showAlert({
-            show: true,
-            text: "I didn't receive your message 😢",
-            type: 'danger',
+        setTimeout(() => {
+          hideAlert(false);
+          setForm({
+            name: '',
+            email: '',
+            message: '',
           });
-        },
-      );
+        }, 3000);
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      setLoading(false);
+      console.error('Error:', error);
+      
+      showAlert({
+        show: true,
+        text: "I didn't receive your message 😢",
+        type: 'danger',
+      });
+    }
   };
 
   return (
@@ -76,8 +73,8 @@ const Contact = () => {
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website or app, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+            Whether you're looking to build a new website or app, improve your existing platform, or bring a unique project to
+            life, I'm here to help.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">

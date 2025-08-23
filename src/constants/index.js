@@ -34,7 +34,7 @@ export const clientReviews = [
     id: 2,
     name: 'Joel Okwueze',
     position: 'Alumni, Veritas University',
-    img: 'assets/review.jpg',
+    img: 'assets/review2.jpg',
     review:
       'Israel’s expertise in web development is truly impressive. He delivered a robust and scalable school portal for my final year project in no time, and my supervisor loved it! He’s a true professional! Fantastic work.',
   },
@@ -43,10 +43,10 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'Law Firm Landing Page',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    desc: 'A responsive landing page for a law firm built with HTML, CSS, and JavaScript, showcasing services, team profiles, and contact details. Deployed live on GitHub Pages.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Clean design, smooth navigation, and interactive features for a professional online presence.',
+    href: 'https://israel-ijejeme.github.io/law-firm-website/',
     texture: '/textures/project/preview-law.webm',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -58,32 +58,27 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'HTML',
+        path: '/assets/html.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Static Portfolio Website',
+    desc: 'A personal portfolio website built with HTML, CSS, and JavaScript, showcasing projects, skills, and contact information in a responsive and user-friendly layout. Hosted live on GitHub Pages.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Modern design with smooth navigation and interactive elements to highlight work effectively.',
+    href: 'https://israel-ijejeme.github.io/portfolio-website/',
     texture: '/textures/project/preview-portfolio.webm',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -95,32 +90,27 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'HTML',
+        path: '/assets/html.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Local Restaurant Landing Page',
+    desc: 'A responsive landing page for a restaurant built with HTML, CSS, and JavaScript, featuring menu highlights, special offers, location details, and a contact form. Deployed live on GitHub Pages.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Clean layout, appetizing visuals, and interactive sections for an inviting online presence.',
+    href: 'https://https://israel-ijejeme.github.io/savory-restaurant/',
     texture: '/textures/project/preview-restaurant.webm',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -134,23 +124,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'HTML',
+        path: '/assets/html.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
     ],
   },
@@ -192,11 +177,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Virtual School Portal',
+    desc: 'A comprehensive School Portal System developed with PHP, MySQL, and JavaScript, featuring role-based access for students, teachers, and administrators. Students can view grades, attendance, and course enrollments; teachers can manage classes, record grades, and track attendance; while administrators oversee users, departments, and overall system management.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'Secure multi-role portal with database integration for streamlined academic management.',
+    href: 'https://github.com/Israel-Ijejeme/school-portal',
     texture: '/textures/project/project-school-portal.webm',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -208,23 +193,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'PHP',
+        path: '/assets/php.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'MySQL',
+        path: 'assets/mysql.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'XAMPP',
+        path: '/assets/xampp.png',
       },
     ],
   },
